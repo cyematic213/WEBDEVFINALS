@@ -1,0 +1,625 @@
+body{
+background:linear-gradient(white,white,white);
+}
+#div0{
+padding-top:1%;
+width:1338px;
+height:49px;
+background-color:#BF2222;
+border-style:solid;
+border-width:5;
+border-color:white;
+position:absolute;
+min-width: 100%;
+max-width: 100%;
+}
+.slide{
+margin-top:7%;	
+font-size: 1.6em;
+font-family: Rockwell;
+color: White;
+position: relative;
+animation: slideshow 5s linear infinite;
+}
+@keyframes slideshow{
+  0%    { left: -100; }
+  100%  { left: 100%; }
+}
+#div1{
+margin-top:6%;
+width:250px;
+height:60px;
+background-color:white;
+border-style:solid;
+border-width:5;
+border-color:white;
+position:absolute;
+}
+.search{
+  margin-top:6%;
+  margin-left:2%;
+  border-color:black;
+  border-radius: 100px 0px 0px 100px;
+  outline: none;
+  position:absolute;
+}
+.button{
+margin-top:6%;
+margin-left:70%;
+border-color:black;
+border-radius:15px 50px 50px 5px;
+position:absolute;
+}
+.button img{
+  width: 15px;
+  height: 15px;
+}
+#RWC2{
+height:220px;
+width:540px;
+margin-top:5%;
+margin-left:30%;
+position:absolute;
+}
+#div2{
+width:1338px;
+height:49px;
+background-color:black;
+padding-top: 1%;
+margin-top:20%;
+border-style:solid;
+border-width:5;
+border-color:white;
+position:absolute;
+min-width: 100%;
+max-width: 100%;
+}
+.Home{
+margin-top: 1%;
+padding-top: 1%;	
+margin-left: 15%;
+font-size: 1.5em;
+font-family: Rockwell;
+position: relative;
+color: white;
+background-color: transparent;
+}
+.Home:hover{
+font-size:1.6em;
+opacity:20;
+}
+.Shop{
+padding-top: 1%;
+margin-top: 1%;	
+margin-left: 10%;
+font-size: 1.5em;
+font-family: Rockwell;
+color: White;
+position: relative;
+}
+.Shop:hover{
+font-size:1.6em;
+opacity:20;
+}
+.Cont{
+padding-top: 1%;	
+margin-top: 1%;
+margin-left: 10%;
+font-size: 1.5em;
+font-family: Rockwell;
+color: White;
+position: relative;
+}
+.Cont:hover{
+font-size:1.6em;
+opacity:20;
+}
+.About{
+padding-top: 1%;
+margin-top: 1%;		
+margin-left: 10%;
+font-size: 1.5em;
+font-family: Rockwell;
+color: White;
+position: relative;
+}
+.About:hover{
+font-size:1.6em;
+opacity:20;
+}
+.Loc{
+padding-top: 1%;
+margin-top: 1%;		
+margin-left: 10%;
+font-size: 1.5em;
+font-family: Rockwell;
+color: White;
+position: relative;
+}
+.Loc:hover{
+font-size:1.6em;
+opacity:20;
+}
+#markbw{
+height:440px;
+width:440px;
+margin-top:2%;
+margin-left:55%;
+position:absolute;
+border-style:inset;
+border-color:#8B0000;
+}
+#div3{
+margin-top:25.5%;
+padding-top:1%;
+width:1338px;
+height:650px;
+background-color:black;
+border-style:solid;
+border-width:5;
+border-color:white;
+position:absolute;
+min-width: 100%;
+max-width: 100%;
+}
+#div4{
+margin-top:25.5%;
+padding-top:1%;
+width:1338px;
+height:1980px;
+background-color:black;
+border-style:solid;
+border-width:5;
+border-color:white;
+position:absolute;
+min-width: 100%;
+max-width: 100%;
+max-height: 1980%;
+}
+#RWCB{
+height:266px;
+width:574px;
+margin-top:8%;
+margin-left:6%;
+position:absolute;
+}
+#RWCB2{
+height:112px;
+width:255px;
+margin-top:1%;
+margin-left:40%;
+position:absolute;
+}
+#BridalGown1{
+height:410px;
+width:270px;
+margin-top:13%;
+margin-left:10%;
+border-style: solid;
+border-color: white;
+position:absolute;
+}
+.Gown1{
+margin-top: 44.9%;		
+margin-left: 15%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: White;
+position: absolute;
+}
+#GownWhite1{
+height:410px;
+width:270px;
+margin-top:13%;
+margin-left:39.9%;
+border-style: solid;
+border-color: white;
+position:absolute;
+}
+.Gown2{
+margin-top: 44.9%;		
+margin-left: 43%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: White;
+position: absolute;
+}
+#CustomGown{
+height:410px;
+width:290px;
+margin-top:13%;
+margin-left:70%;
+border-style: solid;
+border-color: white;
+position:absolute;
+}
+.Gown3{
+margin-top: 44.9%;		
+margin-left: 76%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: White;
+position: absolute;
+}
+#GownBlack1{
+height:410px;
+width:270px;
+margin-top:50%;
+margin-left:10%;
+border-style: solid;
+border-color: white;
+position:absolute;
+}
+.Gown4{
+margin-top: 81.9%;		
+margin-left: 12%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: White;
+position: absolute;
+}
+#GownBlack2{
+height:410px;
+width:270px;
+margin-top:50%;
+margin-left:40%;
+border-style: solid;
+border-color: white;
+position:absolute;
+}
+.Gown5{
+margin-top: 81.9%;		
+margin-left: 42%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: White;
+position: absolute;
+}
+#GownDarkBlue{
+height:410px;
+width:290px;
+margin-top:50%;
+margin-left:70%;
+border-style: solid;
+border-color: white;
+position:absolute;
+}
+.Gown6{
+margin-top: 81.9%;		
+margin-left: 72%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: White;
+position: absolute;
+}
+#GownRed1{
+height:410px;
+width:270px;
+margin-top:87%;
+margin-left:10%;
+border-style: solid;
+border-color: white;
+position:absolute;
+}
+.Gown7{
+margin-top: 118.9%;		
+margin-left: 13%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: White;
+position: absolute;
+}
+#GownRed2{
+height:410px;
+width:270px;
+margin-top:87%;
+margin-left:40%;
+border-style: solid;
+border-color: white;
+position:absolute;
+}
+.Gown8{
+margin-top: 118.9%;		
+margin-left: 43%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: White;
+position: absolute;
+}
+#DebutDress{
+height:410px;
+width:290px;
+margin-top:87%;
+margin-left:70%;
+border-style: solid;
+border-color: white;
+position:absolute;
+}
+.Gown9{
+margin-top: 118.9%;		
+margin-left: 73%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: White;
+position: absolute;
+}
+.Rent{
+margin-top: 126%;		
+margin-left: 48%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: Black;
+position: absolute;
+}
+#div5{
+margin-top:25.5%;
+padding-top:1%;
+width:1338px;
+height:770px;
+background-color:black;
+border-style:solid;
+border-width:5;
+border-color:white;
+position:absolute;
+min-width: 100%;
+max-width: 100%;
+max-height: 770%;
+}
+.underline00{
+margin-top: 41%;		
+margin-left: 5%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.copyright00{
+margin-top: 43.3%;		
+margin-left: 38.8%;
+font-size: 0.8em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.copyright01{
+margin-top: 45%;		
+margin-left: 45.8%;
+font-size: 0.8em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.underline01{
+margin-top: 140%;		
+margin-left: 5%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.copyright02{
+margin-top: 142.2%;		
+margin-left: 38.8%;
+font-size: 0.8em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.copyright03{
+margin-top: 144%;		
+margin-left: 45.8%;
+font-size: 0.8em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.underline02{
+margin-top: 50%;		
+margin-left: 5%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.copyright04{
+margin-top: 52.2%;		
+margin-left: 38%;
+font-size: 0.8em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.copyright05{
+margin-top: 54%;		
+margin-left: 45%;
+font-size: 0.8em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.inq{
+margin-top: 15%;		
+margin-left: 12%;
+font-size: 2.05em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+#markcon{
+height:410px;
+width:394px;
+border-radius:360px;
+border-style: solid;
+border-color: #8B0000;
+margin-top:10%;
+margin-left:58.6%;
+position:absolute;
+animation-name:markcon;
+animation-fill-mode:forwards;
+animation-iteration-count:infinite;
+animation-direction:reverse;
+animation-duration:4s;
+}
+@keyframes markcon{
+	0% {transform: rotateX(0deg);
+	}100% {transform: rotateY(360deg);}
+}
+.line{
+margin-top: 17%;		
+margin-left: 12%;
+font-size: 2.05em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.contnum{
+margin-top: 22%;		
+margin-left: 12%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+#Fb{
+height:30px;
+width:47px;
+margin-top:24.3%;
+margin-left:11%;
+position:absolute;
+}
+.Fbpage{
+margin-top: 25%;		
+margin-left: 14%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.Fbpage:hover{
+font-size:1.06em;
+opacity:20;
+color: blue;
+}
+#ig{
+height:32px;
+width:47px;
+margin-top:27.3%;
+margin-left:11%;
+position:absolute;
+}
+.igpage{
+margin-top: 28%;		
+margin-left: 14%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.igpage:hover{
+font-size:1.06em;
+opacity:20;
+color: pink;
+}
+#markAU{
+height:454px;
+width:730px;
+margin-top:10.8%;
+margin-left:22.8%;
+border-style: solid;
+border-color: white;
+position:absolute;
+}
+#kagi{
+height:410px;
+width:730px;
+margin-top:11.8%;
+margin-left:35.8%;
+border-style: solid;
+border-color: white;
+position:absolute;
+}
+.direction{
+margin-top: 15%;		
+margin-left: 12%;
+font-size: 2.05em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.line2{
+margin-top: 17%;		
+margin-left: 6%;
+font-size: 2.05em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.directword{
+margin-top: 22%;		
+margin-left: 5%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+.directword2{
+margin-top: 26%;		
+margin-left: 5%;
+font-size: 1.05em;
+font-family: Rockwell;
+color: white;
+position: absolute;
+}
+#arrow1{
+height:110px;
+width:210px;
+margin-top:34%;
+margin-left:10%;
+position:absolute;
+animation-name: arrow1;
+animation-duration: 1s;
+animation-iteration-count: infinite;	
+}
+@keyframes arrow1{
+  0%  {left:0px; top:0px;}
+  25% {left:100px; top:0px;}
+  50% {left:100px; top:0px;}
+  75% {left:0px; top:0px;}
+  100%{left:0px; top:0px;}
+
+}
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: auto;
+}
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+.lightbox-content {
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+
+}
+.lightbox-content img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}

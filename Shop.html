@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="Finals.css?v">
+<script>
+function showLightbox(imageUrl) {
+document.getElementById('lightbox').style.display = 'flex';
+var img = document.getElementById('lightbox-img');
+img.src = imageUrl;
+img.style.transform = 'scale(0.75)';
+}
+function closeLightbox() {
+document.getElementById('lightbox').style.display = 'none';
+}
+</script>
+</head>
+<body>
+<div id="div0">
+<span class="slide">Mark Delos Santos' best designs. Order Now!!!</span>
+</div>
+<div id="div1">
+<input type="search" name="search" placeholder="Search" class="search">
+<button type="submit" name="magnefying" class="button">
+<img src="search.png" alt="Search">
+</button>
+</div>
+
+<img src="RWC2.jpg" id="RWC2">
+
+<div id="div2">
+<a href="WEBDEVFINALS.html" style="text-decoration:none"><span class="Home"> Home </span></a>
+<a href="Shop.html" style="text-decoration:none"><span class="Shop"> Shop </span></a>
+<a href="Contact.html" style="text-decoration:none"><span class="Cont"> Contact </span></a>
+<a href="AboutUs.html" style="text-decoration:none"><span class="About"> About Us </span></a>
+<a href="Location.html" style="text-decoration:none"><span class="Loc"> Location </span></a>
+</div>
+
+<div id="div4">
+<img src="RWCB.jpg" id="RWCB2">
+    
+<img src="BridalGown1.jpg" id="BridalGown1" onclick="showLightbox('BridalGown1.jpg')">
+<span class="Gown1"><input type="checkbox" name="Gown1"> Bridal Gown <br> &nbsp &nbsp &nbsp &nbsp ₱6,000</span>
+
+<img src="GownWhite1.jpg" id="GownWhite1" onclick="showLightbox('GownWhite1.jpg')">
+<span class="Gown2"><input type="checkbox" name="Gown2"> White Elegant Gown <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ₱6,350</span>
+
+<img src="CustomGown.jpg" id="CustomGown" onclick="showLightbox('CustomGown.jpg')">
+<span class="Gown3"><input type="checkbox" name="Gown3"> Custom Gown <br> &nbsp &nbsp &nbsp &nbsp &nbsp ₱800</span>
+
+<img src="GownBlack1.jpg" id="GownBlack1" onclick="showLightbox('GownBlack1.jpg')">
+<span class="Gown4"><input type="checkbox" name="Gown4"> Black-Feathered Gown <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ₱5,000</span>
+
+
+<img src="GownBlack2.jpg" id="GownBlack2" onclick="showLightbox('GownBlack2.jpg')">
+<span class="Gown5"><input type="checkbox" name="Gown5"> Black-Feathered Gown II <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ₱5,350</span>
+
+<img src="GownDarkBlue.jpg" id="GownDarkBlue" onclick="showLightbox('GownDarkBlue.jpg')">
+<span class="Gown6"><input type="checkbox" name="Gown6"> Dark-Blue Feathered Gown<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ₱5,150</span>
+
+<img src="GownRed1.jpg" id="GownRed1" onclick="showLightbox('GownRed1.jpg')">
+<span class="Gown7"><input type="checkbox" name="Gown7"> Rose-Colored Gown<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ₱5,350</span>
+
+<img src="GownRed2.jpg" id="GownRed2" onclick="showLightbox('GownRed2.jpg')">
+ <span class="Gown8"><input type="checkbox" name="Gown8"> Rose-Colored Gown II<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ₱5,150</span>
+
+<img src="DebutDress.jpg" id="DebutDress" onclick="showLightbox('DebutDress.jpg')">
+<span class="Gown9"><input type="checkbox" name="Gown9"> Rose-Pink Debut Dress<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ₱3,150</span>
+
+<input type="submit" name="Rent" value="Rent" class="Rent">
+
+<span class="underline01"> _______________________________________________________________________________________________________________________________________________</span>
+<span class="copyright02"> @ 2022 Team Web Development / Mark Delos Santos </span>
+<span class="copyright03"> All rights reserved </span>
+</div>
+
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+<div class="lightbox-content">
+<span style="cursor: pointer; position: absolute; top: 10px; right: 20px; font-size: 24px;" onclick="closeLightbox()">&times;</span>
+<img id="lightbox-img">
+</div>
+</div>
+
+</body>
+</html>
